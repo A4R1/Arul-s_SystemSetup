@@ -1,0 +1,77 @@
+[global]
+
+    ### Display ###
+    follow = mouse
+    width = (0, 600)
+    height = 300
+    indicate_hidden = yes
+    shrink = no
+    transparency = 10
+    notification_height = 0
+    separator_height = 2
+    padding = 10
+    horizontal_padding = 12
+    frame_width = 2
+    frame_color = "#00ffff"        # 💡 NEON CYAN border
+    sort = yes
+    idle_threshold = 0
+
+    ### Text ###
+    font = FiraCode Nerd Font 10
+    line-height = 0
+    markup = full
+    format = "<b><span color='#8aaaff'>%a</span></b>\n<i>%s</i>\n%b"
+    alignment = center
+    vertical_alignment = center
+    show_age_threshold = -1
+    word_wrap = yes
+    ellipsize = end
+    ignore_newline = no
+    stack_duplicates = true
+    hide_duplicate_count = true
+    show_indicators = no
+
+    ### Icons ###
+    icon_position = off
+
+    ### History ###
+    history_length = 30
+
+    ### Misc ###
+    dmenu = rofi -dmenu -p dunst:
+    browser = /usr/bin/firedragon -new-tab
+    always_run_script = true
+    title = Dunst
+    class = Dunst
+    startup_notification = false
+    verbosity = mesg
+    corner_radius = 10
+    ignore_dbusclose = false
+
+    ### Mouse ###
+    mouse_left_click = close_current
+    mouse_middle_click = do_action
+    mouse_right_click = do_action
+
+[shortcuts]
+    close = ctrl+space
+    close_all = ctrl+shift+space
+
+[urgency_low]
+    background = "#12151e"
+    foreground = "#4c566a"
+    frame_color = "#00cccc"   
+    timeout = 6
+
+[urgency_normal]
+    background = "#161a25"
+    foreground = "#b0cfff"
+    frame_color = "#00ffff"     
+    timeout = 10
+
+[urgency_critical]
+background = "#1e2a3a"
+foreground = "#ff80aa"
+frame_color = "#ff33aa"
+timeout = 30
+
