@@ -163,5 +163,11 @@ I swear this is all and I totally dont have another dozen of terminal emulators.
 | `GitHub Desktop` | Github client |
 
 I hope I didn't miss anything.
+
+
+
 ---
+<img width="1920" height="1053" alt="screen" src="https://github.com/user-attachments/assets/72d2db43-efeb-4ace-80fc-47d1a3f93852" />
+
+
 ---
